@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glister™ Multi-Action Power Toothbrush Presentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            overflow-x: hidden; /* Prevent horizontal scroll */
+        }
+
+        .presentation-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .slide {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            opacity: 0; /* Hidden by default for animation */
+            transform: translateY(20px); /* Slightly move down for animation */
+            animation: fadeInSlide 1s ease-out forwards; /* Animation for slides */
+        }
+
+        .slide:nth-child(2) { animation-delay: 0.5s; }
+        .slide:nth-child(3) { animation-delay: 1s; }
+        .slide:nth-child(4) { animation-delay: 1.5s; }
+        .slide:nth-child(5) { animation-delay: 2s; }
+        .slide:nth-child(6) { animation-delay: 2.5s; }
+
+        @keyframes fadeInSlide {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h1 {
+            color: #0056b3;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        ul li {
+            background-color: #e9f7ff;
+            margin-bottom: 10px;
+            padding: 15px 20px;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+            font-size: 1.05em;
+            opacity: 0;
+            transform: translateX(-20px);
+            animation: slideInItem 0.6s ease-out forwards;
+        }
+
+        .slide ul li:nth-child(1) { animation-delay: 0.2s; }
+        .slide ul li:nth-child(2) { animation-delay: 0.4s; }
+        .slide ul li:nth-child(3) { animation-delay: 0.6s; }
+        .slide ul li:nth-child(4) { animation-delay: 0.8s; }
+        .slide ul li:nth-child(5) { animation-delay: 1s; }
+        .slide ul li:nth-child(6) { animation-delay: 1.2s; }
+        .slide ul li:nth-child(7) { animation-delay: 1.4s; }
+        .slide ul li:nth-child(8) { animation-delay: 1.6s; }
+        .slide ul li:nth-child(9) { animation-delay: 1.8s; }
+        .slide ul li:nth-child(10) { animation-delay: 2.0s; }
+        .slide ul li:nth-child(11) { animation-delay: 2.2s; }
+
+
+        @keyframes slideInItem {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .cta {
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta:hover {
+            background-color: #218838;
+        }
+
+        .image-container {
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            max-width: 70%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #e00000;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <div class="slide">
+            <h1>Introducing the Glister™ Multi-Action Power Toothbrush</h1>
+            <p>Experience a new level of oral care with cutting-edge technology and personalized brushing.</p>
+            <div class="image-container">
+                <img src="https://www.amway.com/medias/127705-en-US-690px-03?context=bWFzdGVyfGltYWdlc3w1OTQ3MTh8aW1hZ2UvcG5nfHN5cy1tYXN0ZXIvaW1hZ2VzL2g0Ni9oN2MvOTg4MjI5NDEyNDU3NC8xMjc3MDUtZW4tVVMtNjkwcHgtMDN8NTIwZWFmN2U4Yzg4MDNiMmNjNGE4ZTc3ODczYWViMGQxN2VjMWM4MmU0ZDQzNTFkNjIzYzAyYzM5YTIyNWY2ZQ" alt="Glister Power Toothbrush">
+            </div>
+        </div>
+
+        <div class="slide">
+            <h2>Part of the 3-Step Glister Oral Care System</h2>
+            <p>Designed to integrate seamlessly into your daily routine for optimal oral health:</p>
+            <ul>
+                <li><strong>Brush:</strong> With the Glister™ Multi-Action Power Toothbrush.</li>
+                <li><strong>Floss:</strong> For interdental cleaning.</li>
+                <li><strong>Rinse:</strong> For fresh breath and complete care.</li>
+            </ul>
+            <p>Optimizes the experience of Glister Multi-Action Toothpaste with its traceable Nutrilite™-grown peppermint flavor.</p>
+        </div>
+
+        <div class="slide">
+            <h2>Key Features for a Superior Clean</h2>
+            <ul>
+                <li><strong>Adjustable Intensity Levels:</strong> Low, Medium, High for personalized comfort.</li>
+                <li><strong>Five Brushing Modes:</strong> Clean, Sensitive, Gum Care, Whiten, and Tongue for comprehensive care.</li>
+                <li><strong>Innovative Bristle Design:</strong> Semi-slim, ultra-soft interdental, and rounded-end bristles for total care, plus a reverse-side tongue cleaner.</li>
+                <li><strong>High-Frequency Vibrations:</strong> 32,000 vibrations per minute for effective cleaning.</li>
+                <li><strong>UV Sanitizer Storage Base:</strong> Kills 99.9% of common germs on brush heads.</li>
+                <li><strong>Long Battery Life:</strong> Up to <span class="highlight">70-day</span> lithium battery life on a single charge.</li>
+                <li><strong>Smart Reminder:</strong> Two-minute timer with 30-second intervals for optimal brushing habits.</li>
+                <li><strong>Pressure Sensor:</strong> Alerts you when too much pressure is applied, protecting your gums.</li>
+                <li><strong>Includes Three Brush Heads:</strong> Ready for extended use.</li>
+                <li><strong>IPX7 Water Resistance:</strong> Protected against immersion in water.</li>
+                <li><strong>Splash-Prevention Feature:</strong> Weaker vibration for the first 3 seconds to prevent toothpaste splashing (can be disabled).</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <h2>Experience the Benefits</h2>
+            <ul>
+                <li>Provides a powerful and personalized brushing experience.</li>
+                <li>Helps achieve <span class="highlight">cleaner teeth, healthy gums, and fresh breath</span>.</li>
+                <li>Allows for customized brushing based on individual needs.</li>
+                <li>Effectively cleans tooth surfaces, interdental spaces, and gums.</li>
+                <li><span class="highlight">Clinically proven to reduce dental plaque by 38.66% after two weeks of use.</span></li>
+                <li>Helps develop good brushing habits with the smart reminder timer.</li>
+                <li>Protects gums by alerting against excessive pressure.</li>
+                <li>Keeps the brush head clean and hygienic with the UV Sanitizer.</li>
+                <li>Long battery life for extended use between charges.</li>
+            </ul>
+        </div>
+
+        <div class="slide">
+            <h2>Get Yours Today!</h2>
+            <p>Upgrade your oral care routine with the Glister™ Multi-Action Power Toothbrush.</p>
+            <p>Visit the official Amway website for more information and to purchase.</p>
+            <a href="https://www.amway.com/en_US/Glister%E2%84%A2-Multi-Action-Power-Toothbrush-p-127705?searchTerm=toothbrush" target="_blank" class="cta">Learn More & Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>
